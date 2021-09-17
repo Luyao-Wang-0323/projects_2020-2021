@@ -1,0 +1,44 @@
+<!-- app/templates/user/update/cv.html -->
+
+{% import "bootstrap/utils.html" as utils %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "base.html" %}
+{% block title %}Update DB{% endblock %}
+{% block body %}
+<div class="content-section">
+  <br/>
+  {{ utils.flashed_messages() }}
+  <br/>
+  <div class="center">
+    <h1>Update DB</h1>
+    <br/>
+    <form>
+      <a href="{{ url_for('admin.admin_Download') }}" class="btn btn-default btn-lg">
+            <i class="fa fa-download"></i>
+            Download from Firebase
+          </a>
+    </form>
+    {%if folder%}
+      <div>save in {{folder}} folder</div>
+    {%else%}
+    <div></div>
+    {%endif%}
+    <br/>
+    <br/>
+    <form>
+      <a href="{{ url_for('admin.admin_Update') }}" class="btn btn-default btn-lg">
+            <i class="fa fa-refresh"></i>
+            Update MySQL
+          </a>
+    </form>
+    <br/>
+    <br/>
+    <form>
+      <a href="{{ url_for('admin.admin_Delete') }}" class="btn btn-default btn-lg">
+            <i class="fa fa-trash"></i>
+            Delete local files
+          </a>
+    </form>
+  </div>
+</div>
+{% endblock %}

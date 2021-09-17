@@ -1,0 +1,9 @@
+Skills and Abilities: Expert understanding and experience with all functions of the data management life-cycle including data modeling, data governance, data architecture, data integration, metadata management, data development, data quality management, data administration, security & operations. Experience with cloud platform tools and modern data architecture solution techniques such as cloud data warehousing, data lakes, and advanced query platforms is required.
+
+Experience with modern tools used for working with structured and unstructured data. Ability to visualize and communicate results clearly. Expert in manipulating SQL queries.
+
+Demonstrated competency gathering and documenting business requirements. Demonstrated consensus building abilities. Proven skills to work effectively across internal functional areas in ambiguous situations.
+
+Structured thinker and effective communicator, comfortable interacting with constituents. Good oral and written communication skills. Excellent interpersonal skills with a demonstrated ability to work in a cross functional team environment.
+
+Excellent attention to detail and complex problem-solving capabilities. Proven capabilities with decision support, financial reporting and dashboards is desired. Ability to lead and mentor junior staff.

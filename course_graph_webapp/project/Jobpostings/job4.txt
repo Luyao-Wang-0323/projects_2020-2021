@@ -1,0 +1,23 @@
+
+5+ years experience working on production data products in Python, Scala, or similar
+Proficient in at least one statically typed language
+Experience designing and implementing large, scalable services
+Passionate about enforcing software engineering principles, production code quality, and regular use of design patterns
+Experience interfacing with APIs - SOAP, REST, etc.
+Comfortable using Git, Bitbucket/Github
+Strong belief that tests and code go hand-in-hand
+Deep understanding of SQL, query optimizations, joins etc.
+Excellent CS foundation: data structures, time complexities, algorithms, etc.
+Startup work experience a major plus!
+About Us:
+
+ReSci's mission is to make artificial intelligence accessible and usable for brands.
+
+Our values:
+- Inspire with passion.
+- Persevere with determination.
+- Collaborate with unity.
+- Grow without bounds.
+- Create with impact.
+- Lead with character.
+

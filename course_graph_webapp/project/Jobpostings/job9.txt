@@ -1,0 +1,16 @@
+Preferred Experience
+
+AI & Machine Learning understanding
+Infrastructure automation technologies like Docker and Kubernetes.
+Event Driven Architecture
+Experience developing architectures that process data at scale and low latency
+Strong understanding of integration methods, APIs and services using REST.
+Demonstrated ability to adapt to new technologies and learn quickly
+Strong written and presentation communication skills
+Preferred Technologies
+
+Data warehousing and data modeling
+Azure (Data Factory, Data Lake, SQL Data Warehouse
+Microsoft Business Intelligence (Power BI)
+Microsoft SQL Server, PostgreSQL
+Data reporting and visualization

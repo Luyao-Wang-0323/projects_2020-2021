@@ -1,0 +1,19 @@
+Required Skills & Experience
+4+ years as a Data Architect or Data Scientist within a technology-driven organization
+4+ years of data & analytics development or comparable experience
+4+ years working with either Oracle or SQL Server Databases
+2+ years of experience working with a commercial data warehousing analytical solution (Azure SQL Warehouse, COGNOS, MicroStrategy etc...)
+2+ years of experience using visualization tools like Power BI or Tableau
+2+ years of experience in architecting advanced analytics capabilities for both predictive enterprise reporting and dedicated data science teams
+Expert knowledge of SQL
+Expert knowledge of data modeling and data warehousing concepts
+Desired Skills & Experience
+5+ years in an architecture role within a technology-driven organization
+2+ years of experience in migrating from on premise to Microsoft Azure-based cloud (PaaS or IaaS)
+Expert Knowledge of query optimization
+2+ years of experience working with Microsoft Azure and cloud data solutions, including data ingestion/quality tooling, Azure data lake storage, Azure SQL data warehouse
+Monitor and review branch expenses, travel requests and expense reports.
+Proactively engage in corrective action to improve organizational performance.
+Participate in IRAD planning and execution.
+Identifying program and coverage needs; assist in the hiring of new talent.
+Support the branch head to ensure direct reports are in compliance with USG, GT, and GTRI policies and training including but not limited to Ethics and time-sheet reporting.

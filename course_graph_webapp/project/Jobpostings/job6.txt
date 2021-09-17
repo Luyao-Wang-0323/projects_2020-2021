@@ -1,0 +1,29 @@
+Skills and Experience
+
+Experience building and optimizing data pipelines and data architecture on Amazon Web Services cloud platform.
+
+Experience configuring Identity and Access Management on Amazon Web Services cloud platform.
+
+Experience with wrangling, exploring, and analyzing data to answer specific business questions and identifying opportunities for improvement
+
+Formulated next generation analytics environment, providing self-service, centralized platform for any and all data-centric activities
+
+Designed Distributed algorithms for identifying trends in data and processing them effectively.
+
+Working knowledge in each of following categories of data technologies, ideally on AWS platform:
+
+Big data tools (Athena, S3 Hadoop, Spark, Kafka)
+Relational SQL and NoSQL databases (AWS Redshift, Postgres)
+Data pipeline tools (AWS Glue, AWS Data Pipeline, AWS Lake Formation)
+Scripting languages (preferably Python) 
+Container Orchestration (e.g. Kubernetes, Docker, Amazon ECR/ECS/EKS)
+ 
+
+Working knowledge of machine learning (e.g. SageMaker, Azure ML, TensorFlow, etc.)
+
+Working knowledge of stream processing (e.g. Kinesis, Storm, Spark-Streaming, etc.)
+
+Working knowledge of analytics tools (Tableau, Power BI)
+
+Working knowledge in optimizing AWS Redshift
+

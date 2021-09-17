@@ -1,0 +1,44 @@
+<!-- app/templates/user/update/cv.html -->
+
+{% import "bootstrap/utils.html" as utils %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "base.html" %}
+{% block title %}Upload files{% endblock %}
+{% block body %}
+<div class="content-section">
+  <br/>
+  {{ utils.flashed_messages() }}
+  <br/>
+  <div class="center">
+    <h1>Upload to Firebase</h1>
+    <br/>
+    <form action="" method="post" class="form" enctype="multipart/form-data" role="form">
+      <div class="col-sm-9">
+          <input id="files" name="file[]" type="file" class="file" multiple data-show-upload="true" data-show-caption="true">
+          <br/>
+          <br/>
+          <label for="folders">Choose a firebase folder:</label>
+          <select name="folder" id="folder">
+            <option value="CVs">CVs</option>
+            <option value="Jobpostings">Jobpostings</option>
+          </select>
+      </div>
+      <br/>
+      <br/>
+      <br/>
+      <div>
+        <input class="btn btn-default" id="submit" name="submit" type="submit" value="Upload to Firebase">
+      </div>
+      <br/>
+      <br/>
+      <div>
+        {% if files %}
+          <textarea class="form-control" id="exampleFormControlTextarea4" rows="4">{{ files }}</textarea>
+        {% else %}
+          <textarea class="form-control" id="exampleFormControlTextarea4" rows="4"></textarea>
+        {% endif %}  
+      </div>   
+    </form>
+  </div>
+</div>
+{% endblock %}

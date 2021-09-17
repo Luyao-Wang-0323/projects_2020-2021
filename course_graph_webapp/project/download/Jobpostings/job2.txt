@@ -1,0 +1,25 @@
+
+
+Qualifications:  
+Senior developers need to able to think outside the box and understand the big
+
+picture thought process with an ability to communicate clearly to business owners. In addition to these skills, the following qualifications;
+
+Bachelors or Master's Degree with an emphasis on Computer Science or Information Systems
+Experience as a technical developer or a data engineer
+Experience working with relational databases, MPP systems and Hadoop distributions
+Able to think outside the box and understand the big picture thought process
+Ability to communicate clearly to business owners
+Highly proficient in SQL to include schema design, database definition, and advanced querying
+Experience with Hadoop (HDFS, Sqoop, Hive, Spark, Kafka etc.) required
+Working experience with one programming language like Java or Python is required
+Working experience with Unix/Linux -Experience working with cloud data platforms and products a plus
+Experience with Control-M is desired
+Experience with Tableau and R is a plus
+Data Mining/Data Warehousing/Business Intelligence experience a plus.
+Benefits of Working for AAA:
+
+
+ 
+
+

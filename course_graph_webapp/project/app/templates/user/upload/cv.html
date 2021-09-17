@@ -1,0 +1,38 @@
+<!-- app/templates/user/update/cv.html -->
+
+{% import "bootstrap/utils.html" as utils %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "base.html" %}
+{% block title %}Upload CV{% endblock %}
+{% block body %}
+<div class="content-section">
+  <br/>
+  {{ utils.flashed_messages() }}
+  <br/>
+  <div class="center">
+    <h1>CV Upload</h1>
+    <form action="" method="post"class="form" enctype="multipart/form-data" role="form">
+    	<div class="form-group  required"><label class="control-label" for="cv"></label>
+    		<input id="cv" name="cv" required type="file">
+        </div>
+        <br/>
+        {{ form.hidden_tag() }}
+        <div>
+        	<input class="btn btn-default" id="submit" name="submit" type="submit" value="Submit">
+        </div>
+        <br/>
+        <br/>
+        {% if existingskills %}
+          <div class="form-group "><label class="control-label" for="result">NLP Result:</label>
+          	<input class="form-control" id="result" name="result" type="text" value="{{ existingskills }}">
+          </div>
+        {% else %}
+          <div class="form-group "><label class="control-label" for="result">NLP Result:</label>
+            <input class="form-control" id="result" name="result" type="text" value="">
+          </div>
+        {% endif %}
+      <!-- {{ wtf.quick_form(form) }} -->
+    </form>
+  </div>
+</div>
+{% endblock %}

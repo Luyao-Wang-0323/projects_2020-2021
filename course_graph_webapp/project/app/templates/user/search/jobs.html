@@ -1,0 +1,57 @@
+<!-- app/templates/user/search/jobs.html -->
+
+{% import "bootstrap/utils.html" as utils %}
+{% extends "base.html" %}
+{% block title %}Jobs{% endblock %}
+{% block body %}
+<div class="content-section">
+  <div class="outer">
+    <div class="middle">
+      <div class="inner">
+        <br/>
+        {{ utils.flashed_messages() }}
+        <br/>
+        <h1 style="text-align:center;">Requirements</h1>
+        {% if requirements %}
+          <hr class="intro-divider">
+          <div class="center">
+            <table class="table table-striped table-bordered">
+              <thead>
+                <tr>
+                  <th width="25%"> Job Name </th>
+                  <th width="25%"> Requirements </th>
+                  <th width="50%"> Course </th>
+                  <!-- <th width="35%"> Link </th> -->
+                </tr>
+              </thead>
+              <tbody>
+              {% for requirement in requirements %}
+                <tr>
+                  <td> {{ requirement.jobname }} </td>
+                  <td> {{ requirement.requirement }} </td>
+                  <td>
+                    <a href="{{ requirement.link }}">{{ requirement.course }}
+                    </a>
+                  </td>
+                  
+                </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          <div style="text-align: center">
+        {% else %}
+          <div style="text-align: center">
+            <h3> Can't find the Job in Database. </h3>
+            <hr class="intro-divider">
+        {% endif %}
+          <a href="{{ url_for('user.Search_jobs') }}" class="btn btn-default btn-lg">
+            <i class="fa fa-undo"></i>
+            Return
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

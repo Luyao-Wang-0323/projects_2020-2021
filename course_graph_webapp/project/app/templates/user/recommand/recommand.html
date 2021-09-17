@@ -1,0 +1,44 @@
+<!-- app/templates/user/update/cv.html -->
+
+{% import "bootstrap/utils.html" as utils %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "base.html" %}
+{% block title %}Upload{% endblock %}
+{% block body %}
+<div class="content-section">
+  {{ utils.flashed_messages() }}
+  <br/>
+  <div class="center">
+    <div class="form-group purple-border">
+      <label for="exampleFormControlTextarea4">Skills have been mastered</label>
+      {% if existingskills %}
+        <textarea class="form-control" id="exampleFormControlTextarea4" rows="3">{{ existingskills }}</textarea>
+      {% else %}
+        <textarea class="form-control" id="exampleFormControlTextarea4" rows="3"></textarea>
+      {% endif %}
+    </div>
+    <div class="form-group green-border-focus">
+      <label for="exampleFormControlTextarea5">Skills required</label>
+      {% if list_requirements %}
+        <textarea class="form-control" id="exampleFormControlTextarea5" rows="3">{{ list_requirements }}</textarea>
+      {% else %}
+        <textarea class="form-control" id="exampleFormControlTextarea5" rows="3" ></textarea>
+      {% endif %}
+    </div>
+    <form action="" method="post" class="form" enctype="multipart/form-data" role="form">
+      <div class="float-right">
+        <input class="btn btn-default" id="submit" name="submit" type="submit" value="Recommandation">
+      </div>
+    </form>
+  </div>
+  <div class="center"> 
+  {%if picnames%}
+    {% for picpath in picnames %}
+      <div>
+        <img src="{{ url_for('static', filename=picpath) }}">
+      </div>
+    {%endfor%}
+  {%endif%}
+  </div>
+</div>
+{% endblock %}
